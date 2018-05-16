@@ -1,0 +1,1 @@
+qemu-system-arm.exe -kernel arm/kernel-qemu-4.9.59-stretch -cpu arm1176 -m 256 -M versatilepb -dtb arm/versatile-pb.dtb -no-reboot -serial stdio -append "root=/dev/sda2 panic=1 rootfstype=ext4 rw" -redir tcp:2222::22 -redir tcp:80::80 -redir tcp:443::443 -redir tcp:8088::8088 -redir tcp:23946::23946 -hda arm/ArmPIv1.img
