@@ -63,6 +63,11 @@ Setup on windows is quite easy.
 **WebPortal**: 127.0.0.1:80 AND 443
 **NodeWebShell**: 127.0.0.1:8088
 
+### Extra Feature -*-
+Some extra things were done to allow for things such as internet sharing on the pi.  You are able to ssh into the pi using rndis and the name armpi.local.  You will then be able to use internet sharing on the RNDIS gadget to do things such as update the pi or utilize it without using the access point.  A full guide for this will be forthcoming.
+
+For an RPI zero this simply requires plugging a USB into your PC into the second micro usb slot and have an RNDIS driver installed on your machine to be able to see it on the network.
+
 
 ## TODO
 * Display which binaries are running on the page alongside PID.
@@ -70,3 +75,4 @@ Setup on windows is quite easy.
 * Resolve Radare GUI issues (Graph capabilities etc.)
 * Allow webshell user to gdbserver so SSH is not necessary.
 * Add button to allow starting gdb --multi server for remote debugging of any binaries.
+* Replace GDB Peda with GEF 
