@@ -24,3 +24,15 @@ Most of the common reversing tools have been installed.  GDB Peda will soon be r
 ## Screenshots
 
 ![Alt text](/gui.png?raw=true "Web GUI")
+
+## Default Settings
+**IP**: 192.168.4.1
+
+**SSID**: ArmPI
+**Password**: armpilocal
+
+**Web User**: root
+**Web Password**: toor
+
+**SSH User**: pi
+**SSH Password**: raspberry
