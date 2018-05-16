@@ -1,0 +1,12 @@
+if [ ! -e /dev/sda1 ]; then
+    echo "exiting."
+    exit 0
+fi
+
+if grep -qs '/var/www/html/usb' /proc/mounts; then
+    echo "already mounted."
+    exit 0
+else
+    sudo /bin/mount /dev/sda1 /var/www/html/usb
+fi
+

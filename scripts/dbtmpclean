@@ -1,0 +1,8 @@
+#!/bin/bash
+
+persistence=$(sqlite3 "/var/www/html/armpi.sqlite" "SELECT setting FROM settings WHERE name = 'persistence'")
+
+if [ "$persistence" == False ]; then
+    rm /home/pi/debug/tmp/*
+fi
+
