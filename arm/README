@@ -2,4 +2,4 @@ The image is hosted on my website since Github has a 25mb limit.  You can downlo
 
 Additionall the kernel used to run this in qemu is also here.  The kernel was retrieved from here: https://github.com/dhruvvyas90/qemu-rpi-kernel
 
-The .pb
+The .dtb file is required or the qemu will crash.
