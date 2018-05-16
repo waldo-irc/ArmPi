@@ -17,4 +17,6 @@ Most of the common reversing tools have been installed.  GDB Peda will soon be r
 * Radare2
 * ltrace/strace
 * MSF for MSVenom payload generation
+* Nasm tools for manual shellcode creation
+* Objdump
 * As well as documentation to assist in Arm RE
