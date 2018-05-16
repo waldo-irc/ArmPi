@@ -35,6 +35,9 @@ Setup on windows is quite easy.
 ## Installing in QEMU (Linux) 
 Instructions coming soon...
 
+## Installing in QEMU (OSX)
+Let me know when you figure it out.
+
 ## Screenshots
 
 ![Alt text](/qemu.png?raw=true "Web GUI")
