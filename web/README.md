@@ -8,3 +8,4 @@ All webfiles used for the interface are stored here.
 * Gitlist: http://gitlist.org/
 * Bootstrap: https://getbootstrap.com/
 * JQuery: https://jquery.com/
+* OpenSecurity Training Intro to ARM: http://opensecuritytraining.info/IntroARM.html 
