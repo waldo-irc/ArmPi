@@ -1,0 +1,409 @@
+.style {
+    padding: 4px;
+}
+.paragraph_style {
+    color: rgb(255, 255, 255);
+    font-family: 'Arial-BoldMT', 'Arial', sans-serif;
+    font-size: 32px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 37px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: center;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+}
+.style_1 {
+    font-family: 'Arial-BoldMT', 'Arial', sans-serif;
+    font-size: 15px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+}
+.paragraph_style_1 {
+    color: rgb(255, 255, 255);
+    font-family: 'ArialMT', 'Arial', sans-serif;
+    font-size: 15px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+}
+.style_2 {
+    font-family: 'Arial-ItalicMT', 'Arial', sans-serif;
+    font-size: 15px;
+    font-stretch: normal;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 20px;
+}
+.style_External_630_50 {
+    position: relative;
+}
+.paragraph_style_2 {
+    color: rgb(255, 255, 255);
+    font-family: 'ArialMT', 'Arial', sans-serif;
+    font-size: 15px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 17px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 36px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+}
+.style_SkipStroke {
+    background: transparent;
+    opacity: 1.00;
+}
+.style_SkipStroke_1 {
+    background: transparent;
+    opacity: 1.00;
+}
+.paragraph_style_3 {
+    color: rgb(255, 255, 255);
+    font-family: 'ArialMT', 'Arial', sans-serif;
+    font-size: 15px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 17px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 36px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+}
+.paragraph_style_4 {
+    color: rgb(255, 255, 255);
+    font-family: 'Arial-BoldMT', 'Arial', sans-serif;
+    font-size: 15px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+}
+.style_SkipStroke_2 {
+    background: transparent;
+    float: none;
+    margin: 0px;
+    opacity: 1.00;
+}
+.Body {
+    color: rgb(255, 255, 255);
+    font-family: 'ArialMT', 'Arial', sans-serif;
+    font-size: 15px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+}
+.Free_Form {
+    color: rgb(255, 255, 255);
+    font-family: 'ArialMT', 'Arial', sans-serif;
+    font-size: 15px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+}
+.Header {
+    color: rgb(255, 255, 255);
+    font-family: 'Arial-BoldMT', 'Arial', sans-serif;
+    font-size: 36px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 42px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: center;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+}
+.Normal {
+    padding: 4px;
+}
+.Normal_External_630_50 {
+    position: relative;
+}
+.graphic_generic_header_textbox_style_default_SkipStroke {
+    background: transparent;
+    opacity: 1.00;
+}
+.graphic_image_style_default_SkipStroke {
+    background: transparent;
+    float: none;
+    margin: 0px;
+    opacity: 1.00;
+}
+.graphic_textbox_layout_style_default {
+    padding: 4px;
+}
+.graphic_textbox_layout_style_default_External_630_27 {
+    position: relative;
+}
+.graphic_textbox_layout_style_default_External_622_2478 {
+    position: relative;
+}
+.graphic_textbox_style_default_SkipStroke {
+    background: transparent;
+    opacity: 1.00;
+}
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+a:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+a.class1 {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+a.class1:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+a.class1:hover {
+    color: rgb(221, 221, 221);
+    text-decoration: none;
+}
+a.class2 {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+a.class2:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+a.class2:hover {
+    color: rgb(221, 221, 221);
+    text-decoration: none;
+}
+a.class3 {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+a.class3:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+a.class3:hover {
+    color: rgb(221, 221, 221);
+    text-decoration: none;
+}
+a.class4 {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+a.class4:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+a.class4:hover {
+    color: rgb(221, 221, 221);
+    text-decoration: none;
+}
+a.class5 {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+a.class5:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+a.class5:hover {
+    color: rgb(221, 221, 221);
+    text-decoration: underline;
+}
+a.class6 {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+a.class6:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+a.class6:hover {
+    color: rgb(221, 221, 221);
+    text-decoration: none;
+}
+a.class7 {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+a.class7:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+a.class7:hover {
+    color: rgb(221, 221, 221);
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(221, 221, 221);
+    text-decoration: underline;
+}
+ol  { 
+      padding:0;
+      margin:0;
+      text-indent:0;
+      list-style-type:none ;
+      list-style-image:none
+    }
+.Bullet { 
+          text-decoration:none ;
+          text-transform:none ;
+          border: none;          
+        }
+.bumper {
+    font-size: 1px;
+    line-height: 1px;
+}
+.tinyText {
+    font-size: 1px;
+    line-height: 1px;
+}
+#widget0 a:hover {
+    color: rgb(221, 221, 221);
+    text-decoration: underline;
+}
+#widget0 a:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+.spacer {
+    font-size: 1px;
+    line-height: 1px;
+}
+#widget0 a {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+body { 
+    -webkit-text-size-adjust: none;
+}
+div { 
+    overflow: visible; 
+}
+img { 
+    border: none; 
+}
+.InlineBlock { 
+    display: inline; 
+}
+.InlineBlock { 
+    display: inline-block; 
+}
+.inline-block {
+    display: inline-block;
+    vertical-align: baseline;
+    margin-bottom:0.3em;
+}
+.inline-block.shape-with-text {
+    vertical-align: bottom;
+}
+.vertical-align-middle-middlebox {
+    display: table;
+}
+.vertical-align-middle-innerbox {
+    display: table-cell;
+    vertical-align: middle;
+}
+div.paragraph {
+    position: relative;
+}
+li.full-width {
+    width: 100;
+}
