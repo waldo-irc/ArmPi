@@ -69,3 +69,4 @@ Setup on windows is quite easy.
 * [Ongoing] Improve UI.
 * Resolve Radare GUI issues (Graph capabilities etc.)
 * Allow webshell user to gdbserver so SSH is not necessary.
+* Add button to allow starting gdb --multi server for remote debugging of any binaries.
