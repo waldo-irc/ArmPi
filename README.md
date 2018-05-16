@@ -57,4 +57,4 @@ Most of the common reversing tools have been installed.  GDB Peda will soon be r
 * Display which binaries are running on the page alongside PID.
 * [Ongoing] Improve UI.
 * Resolve Radare GUI issues (Graph capabilities etc.)
-
+* Allow webshell user to gdbserver so SSH is not necessary.
