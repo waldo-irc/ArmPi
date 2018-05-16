@@ -13,7 +13,7 @@ In  this repository you will find the HTML files and scripts used to create the 
 
 Most of the common reversing tools have been installed.  GDB Peda will soon be replaced by GEF as Peda does not currently understand ARM.
 
-* GDB
+* GDB and GDBServer
 * Radare2
 * ltrace/strace
 * MSF for MSVenom payload generation
