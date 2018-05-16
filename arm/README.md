@@ -2,4 +2,7 @@ The image is hosted on my website since Github has a 25mb limit.  You can downlo
 
 Additionally the kernel used to run this in qemu is also here.  The kernel was retrieved from here: https://github.com/dhruvvyas90/qemu-rpi-kernel
 
+Express kernel used to increased ram found here:
+https://github.com/vfdev-5/qemu-rpi2-vexpress
+
 The .dtb file is required or the qemu will crash.
