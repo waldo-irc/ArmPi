@@ -35,7 +35,7 @@ Setup on windows is quite easy.
 -- Ports open in QEMU redirection are 2222 for ssh, 80 and 443 for web, and 8088 for the web shell.  If any of these ports are in use on the host machine you wont be able to access the ArmPI.
 
 ## Installing in QEMU (Linux) 
-Also easy
+Also easy.
 
 1. Sudo apt-get install qemu qemu-system-arm
 2. Move ARM folder from the repo to your Desktop and CD to Desktop
@@ -43,7 +43,12 @@ Also easy
 4. bash startarm.sh
 
 ## Installing in QEMU (OSX)
-Let me know when you figure it out.
+Easy with brew.  Will not cover how to install brew.
+
+1. brew install qemu
+2. Move ARM folder from the repo to your Desktop and CD to Desktop
+3. Move the .img file to the ARM folder.
+4. bash startarm.sh
 
 ## Screenshots
 
