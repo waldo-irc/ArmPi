@@ -1,0 +1,5 @@
+if [ -z $1 ]; then
+    exit 0
+fi
+
+kill -9 $1
