@@ -25,7 +25,7 @@ Most of the common reversing tools have been installed.  GDB Peda will soon be r
 
 ![Alt text](/gui.png?raw=true "Web GUI")
 
-## Default Settings
+## How to Use
 **IP**: 192.168.4.1
 
 **SSID**: ArmPI
