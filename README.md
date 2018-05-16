@@ -20,3 +20,7 @@ Most of the common reversing tools have been installed.  GDB Peda will soon be r
 * Nasm tools for manual shellcode creation
 * Objdump
 * As well as documentation to assist in Arm RE
+
+## Screenshots
+
+![Alt text](/gui.png?raw=true "Web GUI")
