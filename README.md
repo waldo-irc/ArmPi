@@ -21,6 +21,17 @@ Most of the common reversing tools have been installed.  GDB Peda will soon be r
 * Objdump
 * As well as documentation to assist in Arm RE
 
+## Installing in QEMU (Windows)
+Setup on windows is quite easy.
+
+1. Install QEMU: https://www.qemu.org/download/#windows
+2. a. Either put the executables from Program Files/qemu in your path or
+   b. Store arm folder and the start-qemu-arm.bat in the same folder as Program Files/qemu and create a shortcut to the bat file on your desktop.
+3. double click the .bat and wag magic fly -
+4. https://127.0.0.1 for the web portal. 
+
+## Linux Instructions coming soon ---
+
 ## Screenshots
 
 ![Alt text](/qemu.png?raw=true "Web GUI")
