@@ -23,9 +23,19 @@ Most of the common reversing tools have been installed.  GDB Peda will soon be r
 
 ## Screenshots
 
-![Alt text](/gui.png?raw=true "Web GUI")
+![Alt text](/qemu.png?raw=true "Web GUI")
+**Qemu**
 
-## How to Use
+![Alt text](/gui.png?raw=true "Web GUI")
+**Radare GUI**
+
+![Alt text](/dbg.png?raw=true "Web GUI")
+**Radare Debugger**
+
+![Alt text](/shell.png?raw=true "Web GUI")
+**WebShell with GDB**
+
+## Usage
 **IP**: 192.168.4.1
 
 **SSID**: ArmPI
@@ -41,3 +51,10 @@ Most of the common reversing tools have been installed.  GDB Peda will soon be r
 **SSH**: 127.0.0.1:2222
 **WebPortal**: 127.0.0.1:80 AND 443
 **NodeWebShell**: 127.0.0.1:8088
+
+
+** TODO
+* Display which binaries are running on the page alongside PID.
+* [Ongoing] Improve UI.
+* Resolve Radare GUI issues (Graph capabilities etc.)
+
