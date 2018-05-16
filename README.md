@@ -70,6 +70,8 @@ Some extra things were done to allow for things such as internet sharing on the 
 
 For an RPI zero this simply requires plugging a USB into your PC into the second micro usb slot and have an RNDIS driver installed on your machine to be able to see it on the network.
 
+## Practice Binary
+A practice web server binary from https://github.com/saelo/armpwn has been included for you to practice on.  All you need to do is hit "Begin the Challenge" and a it will start the process and attach it to radare (and gdbserver if you leave the setting enabled).
 
 ## TODO
 * Display which binaries are running on the page alongside PID.
