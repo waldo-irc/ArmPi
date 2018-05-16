@@ -1,4 +1,4 @@
-# ArmPIv1 (Beta)
+# ArmPIv1 (Alpha)
 Also known as the ArmPI Revision T (ArmPIT)
 
 ### Raspbian IMG for ARM Reverse Engineering
