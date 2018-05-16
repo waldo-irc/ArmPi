@@ -7,3 +7,4 @@ All webfiles used for the interface are stored here.
 * Armpwn: https://github.com/saelo/armpwn
 * Gitlist: http://gitlist.org/
 * Bootstrap: https://getbootstrap.com/
+* JQuery: https://jquery.com/
