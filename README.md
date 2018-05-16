@@ -36,3 +36,8 @@ Most of the common reversing tools have been installed.  GDB Peda will soon be r
 
 **SSH User**: pi
 **SSH Password**: raspberry
+
+##### Qemu port redirection is done for a few ports in the batch file if you go the emulator route.
+**SSH**: 127.0.0.1:2222
+**WebPortal**: 127.0.0.1:80 AND 443
+**NodeWebShell**: 127.0.0.1:8088
