@@ -32,7 +32,8 @@ Setup on windows is quite easy.
 
 -- Ports open in QEMU redirection are 2222 for ssh, 80 and 443 for web, and 8088 for the web shell.  If any of these ports are in use on the host machine you wont be able to access the ArmPI.
 
-## Linux Instructions coming soon ---
+## Installing in QEMU (Linux) 
+Instructions coming soon...
 
 ## Screenshots
 
