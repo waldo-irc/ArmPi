@@ -5,6 +5,8 @@ Also known as the ArmPI Revision T (ArmPIT)
 
 I had a lot of CTFs where I needed to reverse engineer ARM binaries lately and I decided it was finally time to setup a way to actually handle it, and thus the ArmPI was born.  The .img file was created using Raspbian LITE and a Raspberry PI zero - its also been tested in Qemu (though it's a little slow in Qemu because of the 256mb ram limit for the kernel).  It will probably work on an RPI2 or RPI3 though it hasn't been tested...
 
+-- UPDATE: No qemu accelerator exists to speed up ARM unfortunately but I have been able to replace the kernel with an express kernel that can take more than 256mb of ram.  You can now use the express kernel to get more ram, if that fails you should still be able to use the tested versatile.ptb too just with the less ram.
+
 In  this repository you will find the HTML files and scripts used to create the ArmPI as well as the configuration files used to set it up in Qemu.  The config was used in Windows but it should work just fine in Linux, though this hasn't been tested yet.
 
 *Disclaimer - Currently this is a rough draft of what will hopefully become a more robust final product.  As a result, keep in mind there are a few security risks present here as well as a lot of this code is just to get this running at first and will be re-worked.  As a reversing tool you will also potentially be running malicious ARM binaries as an additional risk, the idea was as a raspberry pi/.img file ran in QEMU you could destroy and re-create the environment as needed with little risk of compromise to any important systems.  
