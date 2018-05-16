@@ -28,7 +28,7 @@ Setup on windows is quite easy.
 
 1. Install QEMU: https://www.qemu.org/download/#windows
 2. a. Either put the executables from Program Files/qemu in your path or
-   b. Store the arm folder and the start-qemu-arm.bat in the same folder as Program Files/qemu and create a shortcut to the bat file on your desktop.
+   b. Store the .img file in the arm folder and move the start-qemu-arm.bat and arm folder to the qemu directory, EX:Program Files/qemu, and create a shortcut to the bat file on your desktop.
 3. double click the .bat and watch magic fly -
 4. https://127.0.0.1 for the web portal. 
 
@@ -37,9 +37,10 @@ Setup on windows is quite easy.
 ## Installing in QEMU (Linux) 
 Also easy
 
-1. sudo apt-get install qemu qemu-system-arm
-2. move ARM folder from the repo to your Desktop and CD to Desktop
-3. Run startarm.sh
+1. Sudo apt-get install qemu qemu-system-arm
+2. Move ARM folder from the repo to your Desktop and CD to Desktop
+3. Move the .img file to the ARM folder.
+4. bash startarm.sh
 
 ## Installing in QEMU (OSX)
 Let me know when you figure it out.
