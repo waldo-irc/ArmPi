@@ -30,7 +30,7 @@ Setup on windows is quite easy.
 3. double click the .bat and watch magic fly -
 4. https://127.0.0.1 for the web portal. 
 
--- Ports open in QEMU redirection are 2222 for ssh, 80 and 443 for web, and 8088 for the web shell.
+-- Ports open in QEMU redirection are 2222 for ssh, 80 and 443 for web, and 8088 for the web shell.  If any of these ports are in use on the host machine you wont be able to access the ArmPI.
 
 ## Linux Instructions coming soon ---
 
