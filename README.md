@@ -54,17 +54,20 @@ Easy with brew.  Will not cover how to install brew.
 
 ## Screenshots
 
-![Alt text](/qemu.png?raw=true "Web GUI")
+![Alt text](/qemu.png?raw=true "Qemu")
 **Qemu**
 
-![Alt text](/gui.png?raw=true "Web GUI")
+![Alt text](/gui.png?raw=true "Radare GUI")
 **Radare GUI**
 
-![Alt text](/dbg.png?raw=true "Web GUI")
+![Alt text](/dbg.png?raw=true "Radare Debugger")
 **Radare Debugger**
 
-![Alt text](/shell.png?raw=true "Web GUI")
+![Alt text](/shell.png?raw=true "WebShell")
 **WebShell with GDB**
+
+![Alt text](/new_web.png?raw=true "Web GUI New")
+**New Web GUI**
 
 ## Usage
 **IP**: 192.168.4.1
