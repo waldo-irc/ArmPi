@@ -5,7 +5,7 @@ Also known as the ArmPI Revision T (ArmPIT)
 
 ### Raspbian IMG for ARM Reverse Engineering
 
-I had a lot of CTFs where I needed to reverse engineer ARM binaries lately and I decided it was finally time to setup a way to actually handle it, and thus the ArmPI was born.  The .img file was created using Raspbian LITE and a Raspberry PI zero - its also been tested in Qemu (though it's a little slow in Qemu because of the 256mb ram limit for the kernel).  It will probably work on an RPI2 or RPI3 though it hasn't been tested...
+I had a lot of CTFs where I needed to reverse engineer ARM binaries lately and I decided it was finally time to setup a way to actually handle it, and thus the ArmPI was born.  The .img file was created using Raspbian LITE and a Raspberry PI zero - its also been tested in Qemu (though it's a little slow in Qemu because of the 256mb ram limit for the kernel).  It will probably work on an RPI3 though it hasn't been tested... It will only work on an RPI2 if you give it a wifi attachment and even then it's untested at this time.  Will work with RPI Zero without wifi using RNDIS Gadget.
 
 -- UPDATE: No qemu accelerator exists to speed up ARM unfortunately but I have been able to replace the kernel with an express kernel that can take more than 256mb of ram.  You can now use the express kernel to get more ram, if that fails you should still be able to use the tested versatile.ptb too just with the less ram.
 
