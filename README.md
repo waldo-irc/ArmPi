@@ -67,7 +67,7 @@ Easy with brew.  Will not cover how to install brew.
 **WebShell with GDB**
 
 ![Alt text](/new_web.png?raw=true "Web GUI New")
-**New Web GUI**
+**New Web GUI (V2)**
 
 ## Usage
 **IP**: 192.168.4.1
