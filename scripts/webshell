@@ -1,0 +1,8 @@
+#!/bin/bash
+
+webshell=$(sqlite3 "/var/www/html/armpi.sqlite" "SELECT setting FROM settings WHERE name = 'webshell'")
+
+if [ "$webshell" == True ]; then
+    /usr/local/bin/web-terminal --port 8088
+fi
+

@@ -1,19 +1,40 @@
 <?php $this->layout('page_template', ['title' => 'Reboot']) ?>
 
-    <h1 style="text-align:center; margin-top:50px;">Reboot</h1>
-    <h5 style="color:red; text-align:center; margin-top:50px;">Are you sure you want to reboot?</h5>
-    <p style="text-align:center;"><a href="/reboot?reboot=rnow">CONTINUE</a></p>
-
-    <h5 style="color:red; text-align:center; margin-top:50px;">Or maybe Shut Down?</h5>
-    <p style="text-align:center;"><a href="/reboot?reboot=shutdown">CONTINUE</a></p>
-
 <?php
-  // Reboot
-  if(isset($_GET["reboot"]) && $_GET["reboot"] == "rnow") {
-    system("sudo /sbin/reboot");
+  //Set CSRF Token
+  if (! isset($_SESSION['csrf_token'])) {
+    $_SESSION['csrf_token'] = base64_encode(openssl_random_pseudo_bytes(32));
   }
+  $csrftoken = $_SESSION['csrf_token'];
 
-  // Shutdown
-  if(isset($_GET["reboot"]) && $_GET["reboot"] == "shutdown") {
-    system("sudo /sbin/shutdown -h now");
+  if (!empty($_SESSION['user']) && $_SESSION['user'] == "root") {
+    // Reboot
+    if(isset($_GET["reboot"]) && $_GET["reboot"] == "rnow" && !empty($_POST["confirm"])) {
+      if (isset($_POST['csrf_token']) && $_POST['csrf_token'] === $_SESSION['csrf_token']) {
+        system("sudo /sbin/reboot");
+      } else {
+        echo "<h1 class='redalert' style='text-align:center;margin-top:20px;'>CSRF Detected!</h1>";
+      }
+    } elseif (isset($_GET["reboot"]) && $_GET["reboot"] == "rnow") {
+      echo "<h1 class='centerheader'>Are you sure you wanna reboot?</h1>";
+      echo "<div style='text-align:center;'>";
+      echo "<a onclick=\"postreboot('".$csrftoken."')\" href='#'><button type='button' class='btn btn-success'>Continue</button></a>";
+      echo "<a href='/'><button style='margin-left:10px;' type='button' class='btn btn-danger'>Cancel</button></a>";
+      echo "</div>";
+    }
+
+    // Shutdown
+    if(isset($_GET["reboot"]) && $_GET["reboot"] == "shutdown" && !empty($_POST["confirm"])) {
+      if (isset($_POST['csrf_token']) && $_POST['csrf_token'] === $_SESSION['csrf_token']) {
+        system("sudo /sbin/shutdown -h now");
+      } else {
+        echo "<h1 class='redalert' style='text-align:center;margin-top:20px;'>CSRF Detected!</h1>";
+      }
+    } elseif (isset($_GET["reboot"]) && $_GET["reboot"] == "shutdown") {
+      echo "<h1 class='centerheader'>Are you sure you wanna shutdown?</h1>";
+      echo "<div style='text-align:center;'>";
+      echo "<a onclick=\"postshutdown('".$csrftoken."')\" href='#'><button type='button' class='btn btn-success'>Continue</button></a>";
+      echo "<a href='/'><button style='margin-left:10px;' type='button' class='btn btn-danger'>Cancel</button></a>";
+      echo "</div>";
+    }
   }

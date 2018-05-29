@@ -1,0 +1,44 @@
+Patch Notes (v1-v3)
+
+-Added GDB Server Multi
+-Added Logo
+-Fixed dependencies and bootstrap setup
+-Opened storage by cleaning up unnecessary files
+-Custom CSS
+-Custom JS
+-Replaced GDB Peda with GEF
+-Redesign
+-Fixed Mobile navbar
+-Confirmation page for reboots/shutdowns
+-Fixed responsiveness (Mobile capability) 
+-Display which binaries are running on the page alongside PID
+-Move uploaded binaries to its own page.
+-Make JS editor an option disabled by default.
+-Fixed qemu script for new port gdbserver. added the redirect 23000
+-Moved from Basic Auth to PHP Auth.
+-Radare GUI issues resolves.
+-Split up settings into multiple pages
+-Set 10 character minimum for the Access Point password
+-Enable/Disable a guest account and password change settings added as well.
+-Added new webshell script for boot and made webshell optional.
+-Checks if a binary is running before deleting
+-Delete all cannot be ran with open sessions.
+-Only show Delete all button if a binary exists.
+-Finalize Design
+-Commented PHP code
+-Sanitized File Uploads
+-Fixed file upload error outputs
+-Setup HOSTAPD to restart without requiring an RPI reboot.
+-Removed needless sudo and dbkill script.
+-User specific direcrorys created
+-Account management page created and setup
+-Only show power options and storage for root.
+-Fixed settings CSRF issues
+-further restricted guest (can’t stop binaries.)
+-Added CSRF Security Tokens
+-Fixed CSRF Refreshes
+-Added updated password option to account management page
+-Added AJAX chat system for collaboration
+-Fixed false CSRF’s with refreshes using a delay
+-updated deprecated redir in qemu start scripts
+-Setup with chroot script as well.

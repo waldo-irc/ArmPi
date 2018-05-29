@@ -6,8 +6,3 @@ require './config.php';
 
 // Render a template
 include './dispatch.php';
-
-
-
-
-

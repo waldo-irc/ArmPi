@@ -2,7 +2,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <!-- saved from url=(0046)http://opensecuritytraining.info/IntroARM.html -->
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
+
     <meta name="Generator" content="iWeb 3.0.4">
     <meta name="iWeb-Build" content="local-build-20140122">
     <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
@@ -39,7 +39,7 @@
               </div>
             </div>
           </div>
-          
+
 
 
           <div id="id2" style="height: 27px; left: 35px; position: absolute; top: 3px; width: 630px; z-index: 1; " class="style_SkipStroke_1 shape-with-text">
@@ -158,7 +158,7 @@ new Paste('widget0', 'Scripts/Widgets/HTMLRegion', 'Scripts/Widgets/SharedResour
         </div>
       </div>
     </div>
-  
+
 
 
 

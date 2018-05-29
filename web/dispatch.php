@@ -1,12 +1,23 @@
 <?php
+//Check for Auth and redirect if false
+session_start();
+if((empty($_SESSION["authenticated"]) || $_SESSION["authenticated"] != 'true') && ($_SERVER['REQUEST_URI'] != "/login" && $_SERVER['REQUEST_URI'] != "/register")) {
+    header('Location: login');
+}
 
+//Start Dispatch
 $dispatcher = FastRoute\simpleDispatcher(function(FastRoute\RouteCollector $r) {
-    $r->addRoute(['GET', 'POST'], '/', 'home');
+    $r->addRoute(['GET', 'POST'], '/[home]', 'home');
     $r->addRoute('GET', '/lessons[/]', 'lessons');
     $r->addRoute('GET', '/git[/]', 'git');
     $r->addRoute('GET', '/terminal[/]', 'terminal');
     $r->addRoute(['GET', 'POST'], '/settings[/]', 'settings');
-    $r->addRoute('GET', '/reboot[/]', 'reboot');
+    $r->addRoute(['GET','POST'], '/reboot[/]', 'reboot');
+    $r->addRoute(['GET','POST'], '/csseditor[/]', 'csseditor');
+    $r->addRoute('GET', '/uploads[/]', 'uploads');
+    $r->addRoute(['GET','POST'], '/login[/]', 'login');
+    $r->addRoute('GET', '/logout[/]', 'login');
+    $r->addRoute(['GET','POST'], '/register[/]', 'register');
 });
 
 // Fetch method and URI from somewhere
@@ -29,5 +40,3 @@ switch ($routeInfo[0]) {
         echo $templates->render("pages/$handler" ,['database' => $database]);
         break;
 }
-
-
