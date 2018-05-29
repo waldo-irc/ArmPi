@@ -58,8 +58,6 @@ Easy with brew.  Will not cover how to install brew.
 3. Move the .img file to the ARM folder.
 4. bash startarm.sh from your Desktop.
 
--- Ports open in QEMU redirection are 2222 for ssh, 80 and 443 for web, and 8088 for the web shell.  If any of these ports are in use on the host machine you wont be able to access the ArmPI.
-
 ## Screenshots
 NEW COMING SOON
 
@@ -78,21 +76,15 @@ NEW COMING SOON
 **SSH User**: pi
 **SSH Password**: raspberry
 
-##### Qemu port redirection is done for a few ports in the batch file if you go the emulator route.
-**SSH**: 127.0.0.1:2222
-**WebPortal**: 127.0.0.1:80 AND 443
-**NodeWebShell**: 127.0.0.1:8088
-
 ### Extra Feature -*-
-Some extra things were done to allow for things such as internet sharing on the pi.  You are able to ssh into the pi using rndis and the name armpi.local.  You will then be able to use internet sharing on the RNDIS gadget to do things such as update the pi or utilize it without using the access point.  A full guide for this will be forthcoming.
-
-For an RPI zero this simply requires plugging a USB into your PC into the second micro usb slot and have an RNDIS driver installed on your machine to be able to see it on the network.
+Using RNDIS Gadget and RNDIS Driver you can ssh to armpi.local using port 2 on your raspberry PI zero.  Port 1 is for charging only.  This allows you access without having to turn your PI into an Access Point (and also means regular RPI Zeros work too).
 
 ## Practice Binary
 A practice web server binary from https://github.com/saelo/armpwn has been included for you to practice on.  All you need to do is hit "Begin the Challenge" and a it will start the process and attach it to radare (and gdbserver if you leave the setting enabled).
 
 ## TODO
-* Finish Wiki
+* Screenshots
+* Start and Finish Wiki
 * Create Cloud instances
 * Now that web is complete add additional tools
 * Remove USB Mount stuff (not required)
