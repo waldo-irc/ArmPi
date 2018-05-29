@@ -3,7 +3,7 @@ Also known as the ArmPI Revision T (ArmPIT)
 
 ### Raspbian IMG for ARM Reverse Engineering
 
-I had a lot of CTFs where I needed to reverse engineer ARM binaries lately and I decided it was finally time to setup a way to actually handle it, and thus the ArmPI was born.  The .img file was created using Raspbian LITE and a Raspberry PI zero.  For best performance install on an RPI Zero Wifi.
+I had a lot of CTFs where I needed to reverse engineer ARM binaries lately and I decided it was finally time to setup a way to actually handle it, and thus the ArmPI was born.  The .img file was created using Raspbian LITE and a Raspberry PI zero.  For best performance install on an RPI Zero Wifi.  May work on the RPI3, will not work on RPI2 or RPI1 due to lack of wireless card and RNDIS gadget.
 
 Relevant Qemu and Chroot Scripts are here as well for emulated runs.  Qemu is a bit slow but the Chroot runs great.  Working out a few kinks trying to get the webserver to run in the Chroot, works effectively for TUI RE though.
 
