@@ -69,6 +69,9 @@ Easy with brew.  Will not cover how to install brew.
 ![Alt text](/web.png?raw=true "Web")
 **WebUI**
 
+![Alt text](/web2.png?raw=true "Web")
+**WebUI2**
+
 ![Alt text](/radare.png?raw=true "Qemu")
 **Radare WebGUI**
 
@@ -91,7 +94,7 @@ Using RNDIS Gadget and RNDIS Driver you can ssh to armpi.local using port 2 on y
 A practice web server binary from https://github.com/saelo/armpwn has been included for you to practice on.  All you need to do is hit "Begin the Challenge" and a it will start the process and attach it to radare (and gdbserver if you leave the setting enabled).
 
 ## TODO
-* Screenshots
+* Fix GDBServer in home.php file debug call
 * Start and Finish Wiki
 * Create Cloud instances
 * Now that web is complete add additional tools
