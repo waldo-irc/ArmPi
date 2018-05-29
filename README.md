@@ -91,7 +91,7 @@ Easy with brew.  Will not cover how to install brew.
 Using RNDIS Gadget and RNDIS Driver you can ssh to armpi.local using port 2 on your raspberry PI zero.  Port 1 is for charging only.  This allows you access without having to turn your PI into an Access Point (and also means regular RPI Zeros work too).
 
 ## Practice Binary
-A practice web server binary from https://github.com/saelo/armpwn has been included for you to practice on.  All you need to do is hit "Begin the Challenge" and a it will start the process and attach it to radare (and gdbserver if you leave the setting enabled).
+A practice web server binary from https://github.com/saelo/armpwn has been included for you to practice on.  All you need to do is hit "Begin the Challenge" and it will start the process and attach it to radare (and gdbserver if you leave the setting enabled).
 
 ## TODO
 * Fix GDBServer in home.php file debug call
